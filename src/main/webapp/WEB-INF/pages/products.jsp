@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <jsp:include page="cssJs.jsp"/>
+    <jsp:include page="css-js.jsp"/>
 </head>
 <body>
 <!--header-->

@@ -1,5 +1,5 @@
 1 <@@> 01_name <@@> /resources/images/productsList/1.jpg <@@> description_01
-2 <@@> 02_name <@@> /resources/images/productsList/2.jpg <@@> description_02 Big big big big
+2 <@@> 02_name <@@> /resources/images/productsList/2.jpg <@@> description_02
 3 <@@> 03_name<@@> /resources/images/productsList/3.jpg <@@> description_03
 4 <@@> 04_name <@@> /resources/images/productsList/4.jpg <@@> description_04
 5 <@@> 05_name <@@> /resources/images/productsList/5.jpg <@@> description_04
@@ -22,3 +22,4 @@
 22 <@@> 22_name <@@> /resources/images/productsList/22.jpg <@@> description_04
 23 <@@> 23_name <@@> /resources/images/productsList/23.jpg <@@> description_04
 24 <@@> 24_name <@@> /resources/images/productsList/24.jpg <@@> description_04
+25 <@@> 25_name <@@> /resources/images/productsList/24.jpg <@@> description_04

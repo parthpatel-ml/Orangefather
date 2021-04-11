@@ -14,8 +14,8 @@
                     <div class="clearfix"></div>
                 </ul>
             </div>
-            <div class="header-left">
-
+            <!-- This is left part of header like SEARCH and CART-->
+            <%--<div class="header-left">
                 <div class="search-box">
                     <div id="sb-search" class="sb-search">
                         <form action="#" method="post">
@@ -35,7 +35,7 @@
                 </script>
                 <!-- //search-scripts -->
 
-                <%--<div class="ca-r">
+                &lt;%&ndash;<div class="ca-r">
                     <div class="cart box_1">
                         <a href="checkout.jsp">
                             <h3>
@@ -46,10 +46,10 @@
                         <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
 
                     </div>
-                </div>--%>
+                </div>&ndash;%&gt;
                 <div class="clearfix"></div>
-            </div>
-
+            </div>--%>
+            <!-- This is left part of header like SEARCH and CART-->
         </div>
     </div>
     <div class="container">

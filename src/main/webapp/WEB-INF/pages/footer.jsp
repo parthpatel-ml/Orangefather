@@ -4,14 +4,14 @@
 <div class="footer w3layouts">
     <div class="container">
         <div class="footer-top-at w3">
-            <div class="col-md-4 amet-sed w3l">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 amet-sed w3l">
                 <h4>MORE INFO</h4>
                 <ul class="nav-bottom">
                     <li><a href="aboutUs">About Us</a></li>
                     <li><a href="contact">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="col-md-4 amet-sed agileits">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 amet-sed agileits">
                 <h4>Set Company Logo</h4>
                 <div class="stay agileinfo">
                     <div class="stay-left wthree" style="width: 80%">
@@ -29,7 +29,7 @@
 
             </div>
 
-            <div class="col-md-4 amet-sed agileits-w3layouts">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 amet-sed agileits-w3layouts">
                 <h4>ADDRESS</h4>
                 <p>Sameer silk meal</p>
                 <p>Ring Road Surat</p>
@@ -45,4 +45,5 @@
     </div>
 </div>
 </body>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/ui-events.js"></script>
 </html>

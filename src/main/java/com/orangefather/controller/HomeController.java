@@ -1,11 +1,19 @@
 package com.orangefather.controller;
 
+import com.sun.xml.internal.ws.commons.xmlutil.Converter;
+import jdk.nashorn.internal.parser.JSONParser;
+import netscape.javascript.JSObject;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
+
+import javax.jws.WebParam;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 @Controller
 public class HomeController {
@@ -39,7 +47,7 @@ public class HomeController {
 
     @RequestMapping(value = "products")
     public String product() {
-        return "products";
+        return "_products";
     }
 
     @RequestMapping(value = "aboutUs")
@@ -87,5 +95,72 @@ public class HomeController {
         modelMap.put("msg1", message);
         return "StaticView";
     }
+
+    @RequestMapping(method = RequestMethod.GET, value = "ajax/id")
+    // http://localhost:8080/ajax/id?id=3
+    // http://localhost:8080/pageName?params=value
+    public void ajaxGetDemo(@RequestParam(value = "id", required = false) int pathId){
+        System.out.println(pathId);
+        System.out.println("");
+    }
+
+    @RequestMapping(method = RequestMethod.GET, value = "ajax/{id}/{name}")
+    // http://localhost:8080/ajax/3/parth
+    public String ajaxGetDemo_2(@PathVariable(name = "id", required = true) int pathId,
+                              @PathVariable(name = "name", required = true) String name){
+        System.out.println(pathId);
+        System.out.println(name);
+        System.out.println("");
+        return "Succes of GET ";
+    }
+
+    // This is Work proper
+    // give html page in response of post method response
+    /* @RequestMapping(method = RequestMethod.POST, value = "ajaxPost")
+    public ModelAndView ajaxPost(@RequestParam(value = "pid",required = true) int pid,
+                           @RequestParam(value = "pname",required = true) String pname)
+    {
+        ModelAndView modelAndView = new ModelAndView("demoView");
+        modelAndView.addObject("pid",pid);
+        modelAndView.addObject("pname",pname);
+        return modelAndView;
+    }*/
+
+    // This is also work proper
+    /*@RequestMapping(method = RequestMethod.POST, value = "ajaxPost")
+    public String ajaxPost(@RequestParam(value = "pid",required = true) int pid,
+                                 @RequestParam(value = "pname",required = true) String pname,
+                                 Model model)
+    {
+        model.addAttribute("pid",pid);
+        model.addAttribute("pname",pname);
+        return "demoView";
+    }*/
+
+    /*@RequestMapping(method = RequestMethod.POST, value = "ajaxPost")
+    public String ajaxPost(@RequestParam(value = "pid",required = true) int pid,
+                           @RequestParam(value = "pname",required = true) String pname,
+                           ModelMap model)
+    {
+        model.addAttribute("pid",pid);
+        model.addAttribute("pname",pname);
+        return "demoView";
+    }*/
+
+    /*
+     *  use this type of code to get response in ajax call
+     * in ui-eventss post request , this give response of array
+    * */
+    @RequestMapping(method = RequestMethod.POST, value = "ajaxPost")
+    public ResponseEntity<ArrayList<String>> ajaxPost(@RequestParam(value = "pid",required = true) int pid,
+                                                      @RequestParam(value = "pname",required = true) String pname,
+                                                      ModelMap model)
+    {
+        ArrayList<String> a = new ArrayList(2);
+        a.add(String.valueOf(pid));
+        a.add(pname);
+        return ResponseEntity.ok(a);
+    }
+
 
 }

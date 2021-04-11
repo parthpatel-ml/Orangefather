@@ -1,7 +1,7 @@
 <html>
 <head>
 
-    <title>Sameer Patel</title>
+    <title>Orange Feather Trandz</title>
     <!-- This is for browser tab logo: make it for proper size-->
     <%--<link rel="shortcut icon" type="image/png" href="${pageContext.request.contextPath}/resources/images/1.png">--%>
 
@@ -16,15 +16,15 @@
     <!--//theme-style-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="keywords" content="Mattress Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
+    <meta name="keywords" content="saree, sarees, orange, orangefeather, orangefeathertrendz"/>
     <script type="application/x-javascript"> addEventListener("load", function () {
         setTimeout(hideURLbar, 0);
     }, false);
 
     function hideURLbar() {
         window.scrollTo(0, 1);
-    } </script>
+    }
+    </script>
     <!--fonts-->
     <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>

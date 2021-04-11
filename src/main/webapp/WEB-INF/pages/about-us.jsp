@@ -7,32 +7,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-    <jsp:include page="cssJs.jsp"/>
+    <jsp:include page="css-js.jsp"/>
 </head>
 
 <body>
 <jsp:include page="header.jsp"/>
-<!-- grow -->
-<div class="grow">
-    <div class="container">
-        <h2>ABOUT US</h2>
-    </div>
-</div>
-<!-- grow end -->
 
-<div class="banner">
-    <%--<img src="${pageContext.request.contextPath}/resources/images/1.jpg" alt="team" width="100%">--%>
+<div class="banner"
+     style="background-image: url('${pageContext.request.contextPath}/resources/images/homepage/1.jpg');">
 </div>
 
 <!--content Start-->
 <div class="container ">
     <div class="row about-us-img" style="padding: 48px 0; display: flex; flex-wrap: wrap; align-items: center;">
         <div class="col-md-3">
-            <img src="${pageContext.request.contextPath}/resources/images/OrangeFathers/Gansham-Bhai.jpeg" alt="team"
+            <img src="${pageContext.request.contextPath}/resources/images/untitled/1.jpg" alt="team"
                  width="100%" style="border-radius: 50%;box-shadow: 7px 8px 13px #ccc;">
         </div>
         <div class="col-md-9 about-content" style="margin-bottom: 25px; background-color: #ebfaff; padding: 10px;">
-
             <p>
             <h4>Ghanshyam Bhalani</h4>
             <span>Business: </br>
@@ -46,10 +38,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <div class="">
     <div class="container">
-        <div class="row about-second-section" style="padding: 48px 0; display: flex; flex-wrap: wrap; align-items: center;">
+        <div class="row about-second-section"
+             style="padding: 48px 0; display: flex; flex-wrap: wrap; align-items: center;">
             <div class="col-md-6" style="background-color: #ebfaff; padding: 10px;">
                 <p>
-                    <h4>Ghanshyam Bhalani</h4>
+                    <h4>Name</h4>
                     <span>Business: </br>
                         Textile (2008) & Farming (1995). </br>
                         Textile best experience in African fabric. </br>
@@ -58,7 +51,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="${pageContext.request.contextPath}/resources/images/OrangeFathers/Gansham-Bhai.jpeg"
+                <img src="${pageContext.request.contextPath}/resources/images/untitled/13.jpg"
                      alt="team" width="50%" style="border-radius: 10px;">
             </div>
         </div>
