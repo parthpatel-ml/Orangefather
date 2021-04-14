@@ -59,7 +59,7 @@
             </div>
             <div class=" h_menu4">
                 <ul class="memenu skyblue">
-                    <li><a class="color8" href="home">Bed Lines</a></li>
+                    <li><a class="color8" href="gallery">Gallery</a></li>
                     <li><a class="color1" href="#">Cushion</a>
                         <div class="mepanel">
                             <div class="row">

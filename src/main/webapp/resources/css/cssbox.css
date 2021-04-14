@@ -2,11 +2,26 @@
    Attribution-ShareAlike 4.0 license and is available on
    https://github.com/TheLastProject/CSSBox. You are not required to add
    additional credit to your website, just leave the above text in this file */
-div.cssbox {
+/*div.cssbox {
   display: inline-block;
   border-style: solid;
   border-width: 1px;
   border-color: #ffe7e7;
+  margin: 3px;
+}*/
+
+/*
+if you set div.cssbox border:border: 9px solid white; and sent body background color then
+appropriate border auto set to image
+*/
+div.cssbox {
+  /*border: 9px solid #f3c177;*/
+  border: 9px solid #8ce78a;
+  border-radius: 5px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  float: left;
   margin: 3px;
 }
 

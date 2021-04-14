@@ -70,6 +70,11 @@ public class HomeController {
         return "contact";
     }
 
+    @RequestMapping(value = "gallery")
+    public String Gallery() {
+        return "gallery";
+    }
+
     @RequestMapping(value = "single")
     public String single(Model model, @RequestParam(required = false, name = "productId") String productId) {
         model.addAttribute("productId", productId);

@@ -10,7 +10,6 @@
 <head>
     <jsp:include page="css-js.jsp"/>
     <jsp:include page="header.jsp"/>
-    <%--<script src="${pageContext.request.contextPath}/resources/js/jquery.min.js"></script>--%>
     <link rel="stylesheet" type="text/css"
           href="${pageContext.request.contextPath}/resources/css/cssbox.css">
 </head>
@@ -61,6 +60,7 @@
                 <a class="cssbox_next" href="#image4">&gt;</a>
             </div>
 
+            <!---->
             <div class="cssbox">
                 <a id="image4" href="#image4">
                     <img class="cssbox_thumb"
@@ -72,6 +72,74 @@
                 </a>
                 <a class="cssbox_close" href="#void"></a>
                 <a class="cssbox_prev" href="#image3">&lt;</a>
+                <a class="cssbox_next" href="#image5">&gt;</a>
+            </div>
+            <div class="cssbox">
+                <a id="image5" href="#image5">
+                    <img class="cssbox_thumb"
+                         src="${pageContext.request.contextPath}/resources/images/untitled/5.jpg"
+                         style="width: 200px; height: 300px">
+                    <span class="cssbox_full">
+                        <img src="${pageContext.request.contextPath}/resources/images/untitled/5.jpg">
+                    </span>
+                </a>
+                <a class="cssbox_close" href="#void"></a>
+                <a class="cssbox_prev" href="#image4">&lt;</a>
+                <a class="cssbox_next" href="#image6">&gt;</a>
+            </div>
+            <div class="cssbox">
+                <a id="image6" href="#image6">
+                    <img class="cssbox_thumb"
+                         src="${pageContext.request.contextPath}/resources/images/untitled/6.jpg"
+                         style="width: 200px; height: 300px">
+                    <span class="cssbox_full">
+                        <img src="${pageContext.request.contextPath}/resources/images/untitled/6.jpg">
+                    </span>
+                </a>
+                <a class="cssbox_close" href="#void"></a>
+                <a class="cssbox_prev" href="#image5">&lt;</a>
+                <a class="cssbox_next" href="#image7">&gt;</a>
+            </div>
+            <div class="cssbox">
+                <a id="image7" href="#image7">
+                    <img class="cssbox_thumb"
+                         src="${pageContext.request.contextPath}/resources/images/untitled/7.jpg"
+                         style="width: 200px; height: 300px">
+                    <span class="cssbox_full">
+                        <img src="${pageContext.request.contextPath}/resources/images/untitled/7.jpg">
+                    </span>
+                </a>
+                <a class="cssbox_close" href="#void"></a>
+                <a class="cssbox_prev" href="#image6">&lt;</a>
+                <a class="cssbox_next" href="#image8">&gt;</a>
+            </div>
+            <div class="cssbox">
+                <a id="image8" href="#image8">
+                    <img class="cssbox_thumb"
+                         src="${pageContext.request.contextPath}/resources/images/untitled/8.jpg"
+                         style="width: 200px; height: 300px">
+                    <span class="cssbox_full">
+                        <img src="${pageContext.request.contextPath}/resources/images/untitled/*.jpg">
+                    </span>
+                </a>
+                <a class="cssbox_close" href="#void"></a>
+                <a class="cssbox_prev" href="#image7">&lt;</a>
+                <a class="cssbox_next" href="#image9">&gt;</a>
+            </div>
+
+            <!---->
+
+            <div class="cssbox">
+                <a id="image9" href="#image9">
+                    <img class="cssbox_thumb"
+                         src="${pageContext.request.contextPath}/resources/images/untitled/9.jpg"
+                         style="width: 200px; height: 300px">
+                    <span class="cssbox_full">
+                        <img src="${pageContext.request.contextPath}/resources/images/untitled/9.jpg">
+                    </span>
+                </a>
+                <a class="cssbox_close" href="#void"></a>
+                <a class="cssbox_prev" href="#image8">&lt;</a>
             </div>
         </div>
     </div>
