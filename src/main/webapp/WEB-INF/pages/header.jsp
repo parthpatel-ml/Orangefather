@@ -66,16 +66,16 @@
                                 <div class="col1">
                                     <div class="h_nav">
                                         <ul>
-                                            <li><a href="products">Bedskirt</a></li>
-                                            <li><a href="products">Blanket/Throw</a></li>
-                                            <li><a href="products">Collection/Duvet</a></li>
-                                            <li><a href="products">Comforter</a></li>
-                                            <li><a href="products">Comforter Set</a></li>
-                                            <li><a href="products">Decorative Pillow</a></li>
-                                            <li><a href="products">Mattress Pad </a></li>
-                                            <li><a href="products">Mattress Topper</a></li>
-                                            <li><a href="products">Pillow</a></li>
-                                            <li><a href="products">Pillow Protector</a></li>
+                                            <li class="cat-name"><a href="products">Bedskirt</a></li>
+                                            <li class="cat-name"><a href="products">Blanket/Throw</a></li>
+                                            <li class="cat-name"><a href="products">Collection/Duvet</a></li>
+                                            <li class="cat-name"><a href="products">Comforter</a></li>
+                                            <li class="cat-name"><a href="products">Comforter Set</a></li>
+                                            <li class="cat-name"><a href="products">Decorative Pillow</a></li>
+                                            <li class="cat-name"><a href="products">Mattress Pad </a></li>
+                                            <li class="cat-name"><a href="products">Mattress Topper</a></li>
+                                            <li class="cat-name"><a href="products">Pillow</a></li>
+                                            <li class="cat-name"><a href="products">Pillow Protector</a></li>
 
                                         </ul>
                                     </div>
@@ -83,32 +83,32 @@
                                 <div class="col1">
                                     <div class="h_nav">
                                         <ul>
-                                            <li><a href="products">Alpaca</a></li>
-                                            <li><a href="products">Cashmere</a></li>
-                                            <li><a href="products">Cotton</a></li>
-                                            <li><a href="products">Cotton Blend</a></li>
-                                            <li><a href="products">Down</a></li>
-                                            <li><a href="products">Down Alternative</a></li>
-                                            <li><a href="products">Egyptian Cotton</a></li>
-                                            <li><a href="products">Modal</a></li>
-                                            <li><a href="products">Pima Cotton</a></li>
-                                            <li><a href="products">Silk </a></li>
+                                            <li class="cat-name"><a>Alpaca</a></li>
+                                            <li class="cat-name"><a>Cashmere</a></li>
+                                            <li class="cat-name"><a>Cotton</a></li>
+                                            <li class="cat-name"><a>Cotton Blend</a></li>
+                                            <li class="cat-name"><a>Down</a></li>
+                                            <li class="cat-name"><a>Down Alternative</a></li>
+                                            <li class="cat-name"><a>Egyptian Cotton</a></li>
+                                            <li class="cat-name"><a>Modal</a></li>
+                                            <li class="cat-name"><a>Pima Cotton</a></li>
+                                            <li class="cat-name"><a>Silk </a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col1">
                                     <div class="h_nav">
                                         <ul>
-                                            <li><a href="products">Bedskirt</a></li>
-                                            <li><a href="products">Blanket/Throw</a></li>
-                                            <li><a href="products">Collection/Duvet</a></li>
-                                            <li><a href="products">Comforter</a></li>
-                                            <li><a href="products">Comforter Set</a></li>
-                                            <li><a href="products">Decorative Pillow</a></li>
-                                            <li><a href="products">Mattress Pad </a></li>
-                                            <li><a href="products">Mattress Topper</a></li>
-                                            <li><a href="products">Pillow</a></li>
-                                            <li><a href="products">Pillow Protector</a></li>
+                                            <li class="cat-name"><a href="products">Bedskirt</a></li>
+                                            <li class="cat-name"><a href="products">Blanket/Throw</a></li>
+                                            <li class="cat-name"><a href="products">Collection/Duvet</a></li>
+                                            <li class="cat-name"><a href="products">Comforter</a></li>
+                                            <li class="cat-name"><a href="products">Comforter Set</a></li>
+                                            <li class="cat-name"><a href="products">Decorative Pillow</a></li>
+                                            <li class="cat-name"><a href="products">Mattress Pad </a></li>
+                                            <li class="cat-name"><a href="products">Mattress Topper</a></li>
+                                            <li class="cat-name"><a href="products">Pillow</a></li>
+                                            <li class="cat-name"><a href="products">Pillow Protector</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -121,16 +121,16 @@
                                 <div class="col1">
                                     <div class="h_nav">
                                         <ul>
-                                            <li><a href="products">Bedskirt</a></li>
-                                            <li><a href="products">Blanket/Throw</a></li>
-                                            <li><a href="products">Collection/Duvet</a></li>
-                                            <li><a href="products">Comforter</a></li>
-                                            <li><a href="products">Comforter Set</a></li>
-                                            <li><a href="products">Decorative Pillow</a></li>
-                                            <li><a href="products">Mattress Pad </a></li>
-                                            <li><a href="products">Mattress Topper</a></li>
-                                            <li><a href="products">Pillow</a></li>
-                                            <li><a href="products">Pillow Protector</a></li>
+                                            <li class="cat-name"><a href="products">Bedskirt</a></li>
+                                            <li class="cat-name"><a href="products">Blanket/Throw</a></li>
+                                            <li class="cat-name"><a href="products">Collection/Duvet</a></li>
+                                            <li class="cat-name"><a href="products">Comforter</a></li>
+                                            <li class="cat-name"><a href="products">Comforter Set</a></li>
+                                            <li class="cat-name"><a href="products">Decorative Pillow</a></li>
+                                            <li class="cat-name"><a href="products">Mattress Pad </a></li>
+                                            <li class="cat-name"><a href="products">Mattress Topper</a></li>
+                                            <li class="cat-name"><a href="products">Pillow</a></li>
+                                            <li class="cat-name"><a href="products">Pillow Protector</a></li>
 
                                         </ul>
                                     </div>
@@ -138,16 +138,16 @@
                                 <div class="col1">
                                     <div class="h_nav">
                                         <ul>
-                                            <li><a href="products">Alpaca</a></li>
-                                            <li><a href="products">Cashmere</a></li>
-                                            <li><a href="products">Cotton</a></li>
-                                            <li><a href="products">Cotton Blend</a></li>
-                                            <li><a href="products">Down</a></li>
-                                            <li><a href="products">Down Alternative</a></li>
-                                            <li><a href="products">Egyptian Cotton</a></li>
-                                            <li><a href="products">Modal</a></li>
-                                            <li><a href="products">Pima Cotton</a></li>
-                                            <li><a href="products">Silk </a></li>
+                                            <li class="cat-name"><a href="products">Alpaca</a></li>
+                                            <li class="cat-name"><a href="products">Cashmere</a></li>
+                                            <li class="cat-name"><a href="products">Cotton</a></li>
+                                            <li class="cat-name"><a href="products">Cotton Blend</a></li>
+                                            <li class="cat-name"><a href="products">Down</a></li>
+                                            <li class="cat-name"><a href="products">Down Alternative</a></li>
+                                            <li class="cat-name"><a href="products">Egyptian Cotton</a></li>
+                                            <li class="cat-name"><a href="products">Modal</a></li>
+                                            <li class="cat-name"><a href="products">Pima Cotton</a></li>
+                                            <li class="cat-name"><a href="products">Silk </a></li>
 
                                         </ul>
                                     </div>
@@ -156,16 +156,16 @@
                                     <div class="h_nav">
 
                                         <ul>
-                                            <li><a href="products">Bedskirt</a></li>
-                                            <li><a href="products">Blanket/Throw</a></li>
-                                            <li><a href="products">Collection/Duvet</a></li>
-                                            <li><a href="products">Comforter</a></li>
-                                            <li><a href="products">Comforter Set</a></li>
-                                            <li><a href="products">Decorative Pillow</a></li>
-                                            <li><a href="products">Mattress Pad </a></li>
-                                            <li><a href="products">Mattress Topper</a></li>
-                                            <li><a href="products">Pillow</a></li>
-                                            <li><a href="products">Pillow Protector</a></li>
+                                            <li class="cat-name"><a href="products">Bedskirt</a></li>
+                                            <li class="cat-name"><a href="products">Blanket/Throw</a></li>
+                                            <li class="cat-name"><a href="products">Collection/Duvet</a></li>
+                                            <li class="cat-name"><a href="products">Comforter</a></li>
+                                            <li class="cat-name"><a href="products">Comforter Set</a></li>
+                                            <li class="cat-name"><a href="products">Decorative Pillow</a></li>
+                                            <li class="cat-name"><a href="products">Mattress Pad </a></li>
+                                            <li class="cat-name"><a href="products">Mattress Topper</a></li>
+                                            <li class="cat-name"><a href="products">Pillow</a></li>
+                                            <li class="cat-name"><a href="products">Pillow Protector</a></li>
                                         </ul>
                                     </div>
                                 </div>
