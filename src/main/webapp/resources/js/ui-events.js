@@ -3,10 +3,6 @@ $(document).ready(function () {
     /*$('.temp-img').css('width', $('.banner').width() + 'px');*/
 });
 
-$(document).resize(function () {
-
-});
-
 function ajaxCalled() {
     let urlString = "http://localhost:8080/ajax/3/parth";
     $.ajax({method: "GET", url: urlString})

@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html class="Single">
 <head>
+    <jsp:useBean id="obj" class="com.orangefather.database.FileOperations"/>
+    <%
+        String data[] = obj.getProductById(request.getParameter("productId")).split("#@#");
+    %>
     <jsp:include page="css-js.jsp"/>
     <script src="${pageContext.request.contextPath}/resources/js/imagezoom.js"></script>
 </head>
@@ -22,10 +26,10 @@
                 <div class="col-md-7 single-top">
                     <div class="flexslider">
                         <ul class="slides">
-                            <li data-thumb="${pageContext.request.contextPath}/resources/images/untitled/1.jpg">
+                            <li data-thumb="${pageContext.request.contextPath}<%=data[2].trim()%>">
                                 <div class="thumb-image">
                                     <img
-                                            src="${pageContext.request.contextPath}/resources/images/untitled/1.jpg"
+                                            src="${pageContext.request.contextPath}<%=data[2].trim()%>"
                                             data-imagezoom="true"
                                             class="img-responsive"/>
                                 </div>
@@ -188,5 +192,8 @@
 </div>
 <!--//content-->
 <jsp:include page="footer.jsp"/>
+<script>
+    debugger;
+</script>
 </body>
 </html>

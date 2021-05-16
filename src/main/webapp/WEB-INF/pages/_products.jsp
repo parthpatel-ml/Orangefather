@@ -41,12 +41,12 @@
                         while (i <= imgCount) {
                             if (i < k) {
                                 System.out.println("Print col-4");
-                                String[] split = list.productPage().get(i-1).split("<@@>");
+                                String[] split = list.productPage().get(i-1).split("#@#");
                     %>
                     <!-- this is rotate 3 times 3 items in one row START-->
                     <div class="col-md-4 bottom-cd simpleCart_shelfItem">
-                        <div class="product-at ">
-                            <a href="single" id="">
+                        <div class="product-at  dev-single">
+                            <a <%--class="dev-single"--%> href="single?productId=<%=split[0].trim()%>" id="<%=split[0].trim()%>">
                                 <img class="img-responsive"
                                      src="${pageContext.request.contextPath}<%=split[2].trim()%>"
                                      alt="">
@@ -92,5 +92,6 @@
 
 <!-- Footer -->
 <jsp:include page="footer.jsp"/>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/_products.js"></script>
 </body>
 </html>
